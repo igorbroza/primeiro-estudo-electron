@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Body styles */
+body {
+    font-size: 100%;
+    background: linear-gradient(90deg, rgba(0,131,49,1) 0%, rgba(16,62,52,1) 100%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    
+}
+
+.nomeTitulo {
+    font-family: 'Caprasimo', cursive;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.nomeCa {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.main {
+    margin-bottom: 48px;
+    border-top: 0.4px solid black;
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 48px;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.tituloSobre {
+    font-family: 'Caprasimo', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.textoSobre {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+
+img    {
+    border-radius: 50%;
+}
+
+.footerText {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    text-align: center
+}
